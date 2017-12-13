@@ -3,7 +3,7 @@ This is a set of scripts I have been using to create a disk image and public ima
 
 Install Instructions:
 
-0) Download the latest slackware armhf release.
+0) Download the latest slackware armhf release https://github.com/mwiljanen/slackrock/releases
    
 1) As a privileged user please run:
    zcat slackware-current-minimal-rock64-0.5.10-118-armhf.img.gz | sudo dd of=/dev/sdX bs=4M status=progress
