@@ -4,8 +4,7 @@ This is a set of scripts I have been using to create a disk image and public ima
 Install Instructions:
 
 0) Download the latest slackware armhf release.
-   * Note this image is +2GB to download and when expanded it takes up 19GB so you will need a 32GB card for this image
-
+   
 1) As a privileged user please run:
    zcat slackware-armhf*img | sudo dd of=/dev/sdX status=progress
    
